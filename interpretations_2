@@ -1,0 +1,20 @@
+ACP (Analyse en Composantes Principales) :
+
+L'ACP est une technique qui permet de représenter les données dans un espace de dimensions inférieures en préservant au maximum la variance des données.
+Les deux composantes principales choisies dans ce cas capturent la plus grande partie de la variance des données tout en réduisant la dimension à deux.
+Nuage de points (Scatter Plot) :
+
+Chaque point dans le nuage de points représente un fromage dans l'espace des deux premières composantes principales de l'ACP.
+Les couleurs des points sont déterminées par le cluster attribué par l'algorithme KMeans.
+Interprétation visuelle :
+
+Les points qui sont proches les uns des autres dans le nuage de points partagent des caractéristiques similaires en termes de composantes principales.
+Les couleurs différentes représentent les clusters attribués par KMeans, ce qui signifie que les points de la même couleur sont regroupés ensemble par l'algorithme.
+Clusters KMeans :
+
+Les clusters KMeans ont été obtenus précédemment en utilisant l'algorithme de KMeans sur les données d'origine.
+La visualisation en deux dimensions permet de voir comment les fromages sont regroupés en fonction de leur similitude dans l'espace des deux premières composantes principales.
+Interprétation globale :
+
+Les fromages qui sont regroupés dans la même couleur (cluster) sont similaires en termes de leurs composantes principales, telles que capturées par l'ACP.
+Les clusters peuvent correspondre à des groupes de fromages ayant des profils nutritionnels ou des caractéristiques similaires.

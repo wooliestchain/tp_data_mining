@@ -1,0 +1,19 @@
+
+
+Dendrogramme:
+
+Le dendrogramme est une représentation graphique de la hiérarchie des clusters. Dans votre code, le dendrogramme est affiché avec les noms des fromages sur l'axe des y.
+Les branches du dendrogramme représentent les regroupements successifs des fromages en clusters.
+La hauteur à laquelle deux branches fusionnent indique la distance à laquelle la fusion a eu lieu. Plus la distance est grande, moins les observations sont similaires.
+
+
+Seuil de couleur:
+
+Le seuil de couleur (défini à 255 dans le code) peut être utilisé pour identifier les clusters. Les branches du dendrogramme au-dessus de ce seuil sont colorées différemment.
+Lorsqu'une ligne horizontale traverse une branche du dendrogramme, elle indique une division dans les clusters.
+
+
+Attribution des groupes:
+
+La fonction fcluster est utilisée pour attribuer des groupes aux observations en fonction du dendrogramme et du seuil choisi.
+Ces groupes sont ensuite affichés et triés. Les indices triés (idg) sont utilisés pour ordonner les observations et les groupes correspondants.
